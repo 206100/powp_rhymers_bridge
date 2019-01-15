@@ -11,6 +11,7 @@ public class RhymersJUnitTest {
 	@Test
 	public void testCountIn() {
 		DefaultCountingOutRhymer rhymer = new DefaultCountingOutRhymer();
+		
 		rhymer.countIn(TEST_VALUE);
 
 		int result = rhymer.peekaboo();
